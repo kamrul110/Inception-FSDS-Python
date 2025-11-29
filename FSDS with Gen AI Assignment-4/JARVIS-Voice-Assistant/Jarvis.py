@@ -146,10 +146,10 @@ def set_timer(query):
             engine.runAndWait()
     threading.Thread(target = run_timer,daemon=True).start()    
 
-
+# 
     
 def gemini_model_response(user_input):
-    GEMINI_API_KEY = "AIzaSyCVkQixMpZAEGll-UxaDdOHiczNkXYQECg"
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel("gemini-2.5-flash")
     prompt = f"Your name is JARVIS, You act like JARVIS. Answar the provided question in short, Question:{user_input}"
