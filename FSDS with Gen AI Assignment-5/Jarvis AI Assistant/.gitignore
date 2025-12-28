@@ -1,0 +1,12 @@
+# Conda environment
+# jarvisUiApp/
+
+# Python cache
+# __pycache__/
+# *.pyc
+
+# Environment files
+.env
+
+# # Streamlit/other logs
+# *.log

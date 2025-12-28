@@ -11,6 +11,7 @@ import time
 import random
 import threading
 import pyautogui
+from dotenv import load_dotenv
 # Logging configuration 
 LOG_DIR = "logs"
 LOG_FILE_NAME = "application.log"
@@ -24,6 +25,8 @@ logging.basicConfig(
     format = "[ %(asctime)s ] %(name)s - %(levelname)s - %(message)s",
     level= logging.INFO
 )
+
+load_dotenv()
 
 
 # Activating voice 
@@ -150,11 +153,25 @@ def set_timer(query):
     
 def gemini_model_response(user_input):
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    if not GEMINI_API_KEY:
+        logging.error("Missing GEMINI_API_KEY; cannot contact Gemini API.")
+        return "I cannot reach the Gemini service because the API key is missing."
+
     genai.configure(api_key=GEMINI_API_KEY)
     model = genai.GenerativeModel("gemini-2.5-flash")
     prompt = f"Your name is JARVIS, You act like JARVIS. Answar the provided question in short, Question:{user_input}"
-    response= model.generate_content(prompt)
-    result = response.text
+
+    try:
+        response = model.generate_content(prompt)
+        result = (response.text or "").strip()
+    except Exception as exc:
+        logging.exception("Gemini API call failed: %s", exc)
+        return "I ran into an issue while contacting Gemini; please try again later."
+
+    if not result:
+        logging.warning("Gemini API returned an empty response.")
+        return "I could not get an answer from Gemini right now."
+
     return result
 
     
