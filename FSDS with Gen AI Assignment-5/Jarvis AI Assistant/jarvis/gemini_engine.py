@@ -1,5 +1,4 @@
-# Gemini API handler
-# jarvis/gemini_engine.py
+
 import google.generativeai as genai
 
 class GeminiEngine:

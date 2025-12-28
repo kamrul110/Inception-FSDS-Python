@@ -1,6 +1,4 @@
-# System behavior & role
 
-# jarvis/prompt_controller.py
 class PromptController:
     def _system_instructions(self, role: str) -> str:
         """Return system-level instructions/persona based on the selected role."""

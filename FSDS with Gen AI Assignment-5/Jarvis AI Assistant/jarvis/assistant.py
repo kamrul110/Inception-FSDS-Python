@@ -47,7 +47,7 @@ class JarvisAssistant:
                     self._tts_engine.say(text)
                     self._tts_engine.runAndWait()
             except Exception:
-                # Never crash the app because of audio issues
+               
                 pass
 
         threading.Thread(target=_run, daemon=True).start()
@@ -129,7 +129,7 @@ class JarvisAssistant:
             reply = "Opening weather details in your browser."
 
         elif "typing test" in lowered:
-            # The full, interactive typing test is implemented in the UI.
+          
             reply = (
                 "Typing speed test is ready. "
                 "Use the 'Typing Speed Test' panel in the sidebar to start."
@@ -183,7 +183,7 @@ class JarvisAssistant:
        
         self.memory.add("User", text)
         self.memory.add("Assistant", reply)
-# here
+
         if speak_aloud:
             self._speak(reply)
 

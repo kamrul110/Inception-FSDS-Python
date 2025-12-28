@@ -1,5 +1,4 @@
-# Conversation memory
-# jarvis/memory.py
+
 import json
 import os
 
