@@ -1,0 +1,113 @@
+{
+  "build": "py311haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "D:\\Anaconda3\\pkgs\\decorator-5.2.1-py311haa95532_0",
+  "files": [
+    "Lib/site-packages/__pycache__/decorator.cpython-311.pyc",
+    "Lib/site-packages/decorator-5.2.1.dist-info/INSTALLER",
+    "Lib/site-packages/decorator-5.2.1.dist-info/METADATA",
+    "Lib/site-packages/decorator-5.2.1.dist-info/RECORD",
+    "Lib/site-packages/decorator-5.2.1.dist-info/REQUESTED",
+    "Lib/site-packages/decorator-5.2.1.dist-info/WHEEL",
+    "Lib/site-packages/decorator-5.2.1.dist-info/direct_url.json",
+    "Lib/site-packages/decorator-5.2.1.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/decorator-5.2.1.dist-info/top_level.txt",
+    "Lib/site-packages/decorator.py"
+  ],
+  "fn": "decorator-5.2.1-py311haa95532_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "D:\\Anaconda3\\pkgs\\decorator-5.2.1-py311haa95532_0",
+    "type": 1
+  },
+  "md5": "d2b49ca7497eac965ed83e1ac720863b",
+  "name": "decorator",
+  "package_tarball_full_path": "D:\\Anaconda3\\pkgs\\decorator-5.2.1-py311haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/decorator.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "93bbbae2b91215fd22a29f860a89e62facb434b76f145e434985ea701695d9fc",
+        "sha256_in_prefix": "93bbbae2b91215fd22a29f860a89e62facb434b76f145e434985ea701695d9fc",
+        "size_in_bytes": 24032
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7df4272d0818f2d17d05b68736238c73f37ce0eb556c090efaeb5764391b680f",
+        "sha256_in_prefix": "7df4272d0818f2d17d05b68736238c73f37ce0eb556c090efaeb5764391b680f",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9c65399ada2c83d1b4c32658e004573934fe601bc584991b8ce5f412f0e558fc",
+        "sha256_in_prefix": "9c65399ada2c83d1b4c32658e004573934fe601bc584991b8ce5f412f0e558fc",
+        "size_in_bytes": 803
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "sha256_in_prefix": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "44ab028be68bf2fee2b5bfb0ff2c2923d98ca1fb55ae8a199de72723b819bfbc",
+        "sha256_in_prefix": "44ab028be68bf2fee2b5bfb0ff2c2923d98ca1fb55ae8a199de72723b819bfbc",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "914ee6ed78a5efc173bda698f2708444ca9d140fcc4080c60d0503d40db39da6",
+        "sha256_in_prefix": "914ee6ed78a5efc173bda698f2708444ca9d140fcc4080c60d0503d40db39da6",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "Lib/site-packages/decorator-5.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "sha256_in_prefix": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "7169cee9c28aa2142b5cd106d7e15aba2c3c763c04ddfd8f0368091a87f08170",
+        "sha256_in_prefix": "7169cee9c28aa2142b5cd106d7e15aba2c3c763c04ddfd8f0368091a87f08170",
+        "size_in_bytes": 17067
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "36f68e5ca913245537ef12d6c55e2c2a49cf951e730b6f8b10b9142e834fcd30",
+  "size": 42902,
+  "subdir": "win-64",
+  "timestamp": 1757341285000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/decorator-5.2.1-py311haa95532_0.conda",
+  "version": "5.2.1"
+}

@@ -1,0 +1,15 @@
+{
+ "argv": [
+  "d:/Inception-FSDS-Python/FSDS with Gen AI Assignment-6/Real Estate house prodict project/house-predict_env\\python.exe",
+  "-Xfrozen_modules=off",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
